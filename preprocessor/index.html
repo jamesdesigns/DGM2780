@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cozy Corner - The Best Online Bookstore.</title>
+	<link href="img/favicon.png" type="img/png" rel="icon">
+	<link href="css/reset.css" type="text/css" rel="stylesheet">
+	<link href="css/main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="main-container">
+	<div class="header">
+        <nav>
+         <div class="logo-header">
+             <a href="index.html"><img class="icon" src="img/Cozy-Corner-Logo-Blue.png" alt="logo"></a>
+            </div> 
+            <div class="topnav" id="myTopnav">
+              <a href="#home" class="active">Home</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact Us</a>
+                <a href="#social"><img src="img/facebook-3-16-blue.png" alt="facebook"></a><a href="#"><img src="img/twitter-3-16-blue.png" alt="twitter"></a><a href="#"><img src="img/instagram-16-blue.png" alt="Instagram"></a>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+	</div>
+
+    <div class="container">
+        <div class="item1">
+           <img src="img/hero-image.png" alt="hero" class="center">
+        </div>
+    </div>  
+    
+    <div class="container2">
+        <div class="box2">
+        <h2 class="topBooks">Design Books of 2018</h2>
+        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+        <button>Discover More...</button>    
+       </div>
+    </div>    
+        
+    <div class="container3">
+        <div class="bestSeller">
+            <h2>Best Sellers</h2>
+        </div>
+        <div class="box3">
+            <figure class="gallery"><img src="img/book1.jpg" alt="Maria Shriver"><figcaption>I've been thinking...<br/>by <a href="#" class="bio">Maria Shriver</a><br /><span style="color:#f5a63b;">&#9733;&#9733;&#9733;&#9733;&#9734;</span></figcaption> </figure> 
+            <figure class="gallery"><img src="img/book2.jpg" alt="Kristin Hannah"><figcaption>The Great Alone<br />by <a href="#" class="bio">Kristin Hannah</a><br /><span style="color:#f5a63b;">&#9733;&#9733;&#9733;&#9733;&#9734;</span></figcaption></figure>
+            <figure class="gallery"><img src="img/book3.jpg" alt="R.J. Palacio"><figcaption>Wonder<br />by <a href="#" class="bio">R.J. Palacio</a><br /><span style="color:#f5a63b;">&#9733;&#9733;&#9733;&#9733;&#9734;</span></figcaption></figure>
+            <figure class="gallery"><img src="img/book4.jpg" alt="Mark Manson"><figcaption>The Subtle Art of...<br />by <a href="#" class="bio">Mark Manson</a><br /><span style="color:#f5a63b;">&#9733;&#9733;&#9733;&#9733;&#9734;</span></figcaption></figure>
+       </div>
+    </div>    
+
+    <div class="container4">
+        <div class="author1">
+            <h3>James Patterson<br /><span class="subject">Fictional Author</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed facilisis purus. Vivamus interdum eu metus et sagittis. Morbi magna tellus, mattis in iaculis et, facilisis at tellus. Nulla in sem eget elit sodales vulputate eget condimentum neque. Nullam semper nulla id ex pulvinar, eleifend ultricies nunc interdum. Vivamus sed mauris vel massa consequat lobortis.</p>
+            <p>Nunc hendrerit nisl accumsan, efficitur eros ac, faucibus mi. Nulla ornare mattis dui ut lacinia. Nam congue velit nibh, id tincidunt arcu faucibus eu. Nam vestibulum vestibulum magna at pharetra. </p>
+        </div>
+        <div class="author2">
+            <h3>Lisa Gardner<br /><span class="subject">Crime Author</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed facilisis purus. Vivamus interdum eu metus et sagittis. Morbi magna tellus, mattis in iaculis et, facilisis at tellus. Nulla in sem eget elit sodales vulputate eget condimentum neque. Nullam semper nulla id ex pulvinar, eleifend ultricies nunc interdum. Vivamus sed mauris vel massa consequat lobortis.</p>
+            <p>Nunc hendrerit nisl accumsan, efficitur eros ac, faucibus mi. Nulla ornare mattis dui ut lacinia. Nam congue velit nibh, id tincidunt arcu faucibus eu. Nam vestibulum vestibulum magna at pharetra. </p>
+        </div>
+    </div> 
+	
+    <div class="footer">
+        <nav>
+            <li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact Us</a></li>
+            <li><a href="#social"><img src="img/facebook-3-16-black.png" alt="facebook"></a></li><li><a href="#"><img src="img/twitter-3-16-black.png" alt="twitter"></a></li><li><a href="#"><img src="img/instagram-16-black.png" alt="Instagram"></a></li>
+		</nav>
+	</div>
+</div> <!-- End of MAIN CONTAINER -->
+    
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+</html>
